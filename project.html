@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Project — ISER</title>
+<meta name="description" content="ISER portfolio project — software & technology case study." />
+<meta name="theme-color" content="#060A12" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 44'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230A6CE4'/%3E%3Cstop offset='1' stop-color='%232BD0F5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M2 7 L9 4 L9 33 L2 36 Z' fill='url(%23g)'/%3E%3Cpath d='M14 4 L26 9 L20 14 L14 11 Z' fill='url(%23g)'/%3E%3Cpath d='M14 16 L26 11 L26 21 L14 26 Z' fill='url(%23g)'/%3E%3Cpath d='M14 28 L26 23 L20 33 L14 40 Z' fill='url(%23g)'/%3E%3Cpath d='M30 4 L38 9 L38 20 L30 24 L34 14 Z' fill='url(%23g)'/%3E%3Cpath d='M30 26 L38 23 L38 40 L30 40 Z' fill='url(%23g)'/%3E%3C/svg%3E" />
+<script>(function(){try{if(localStorage.getItem('iser-theme')==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/iser.css" />
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="bg-field"></div>
+<div class="bg-grid"></div>
+<div class="bg-noise"></div>
+<div class="progress" id="progress"></div>
+<div class="reticle" id="reticle"><i></i></div>
+<div class="dot-follow" id="dot"></div>
+
+<!-- ============ HEADER ============ -->
+<header id="header" class="scrolled">
+  <div class="wrap nav">
+    <a href="index.html" class="brand" aria-label="ISER — Software &amp; Technology, home" data-hot>
+      <img src="logo.png" alt="ISER — Software &amp; Technology" class="brand-logo" width="72" height="50" />
+    </a>
+    <nav class="menu">
+      <a class="lnk" href="index.html#about"><span>01</span>Who We Are</a>
+      <a class="lnk" href="index.html#services"><span>02</span>Services</a>
+      <a class="lnk" href="index.html#work"><span>03</span>Portfolio</a>
+      <a class="lnk" href="index.html#contact"><span>04</span>Contact</a>
+      <a class="btn btn-primary" href="index.html#contact" data-hot>Start a Project
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </nav>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle colour theme" data-hot></button>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#about">Who We Are</a>
+  <a href="index.html#services">Services</a>
+  <a href="index.html#work">Portfolio</a>
+  <a href="index.html#contact">Contact</a>
+  <a class="btn btn-primary" href="index.html#contact">Start a Project</a>
+</div>
+
+<!-- ============ PROJECT DETAIL ============ -->
+<main class="pd wrap" id="main">
+  <div class="pd-breadcrumb">
+    <a href="index.html" data-hot>Home</a><span class="sep">/</span>
+    <a href="index.html#work" data-hot>Portfolio</a><span class="sep">/</span>
+    <span id="bcTitle">Project</span>
+  </div>
+
+  <div class="pd-head reveal show">
+    <span class="pd-cat" id="pCat">Software Development</span>
+    <h1 class="pd-title" id="pTitle">Project</h1>
+  </div>
+
+  <div class="pd-visual reveal show">
+    <div class="scan"></div>
+    <span class="tagchip" id="pChip">// ISER.PROJECT</span>
+    <span class="mono" id="pMono">ISER</span>
+  </div>
+
+  <div class="pd-layout">
+    <div class="pd-body reveal show">
+      <h2>Overview</h2>
+      <p id="pDesc">—</p>
+      <ul class="pd-feats" id="pFeats"></ul>
+    </div>
+    <aside class="pd-aside reveal show d1">
+      <div class="ticks"><span></span><span></span><span></span><span></span></div>
+      <div class="pd-arow"><small>Client</small><b id="pClient">—</b></div>
+      <div class="pd-arow"><small>Category</small><b id="pCat2">Software Development</b></div>
+      <div class="pd-arow"><small>Services</small><b id="pServices">—</b></div>
+      <div id="pVisitWrap"></div>
+    </aside>
+  </div>
+
+  <nav class="pd-nav">
+    <a class="prev" id="navPrev" data-hot><span>← Previous Project</span><b id="prevName">—</b></a>
+    <a class="next" id="navNext" data-hot><span>Next Project →</span><b id="nextName">—</b></a>
+  </nav>
+</main>
+
+<!-- ============ CTA BAND ============ -->
+<section class="section" style="padding-top:90px">
+  <div class="wrap">
+    <div class="cta-band reveal show">
+      <div class="inner">
+        <h2>We'll take you by the digital hand &amp; build the solution that's right for your brand.</h2>
+        <a class="btn btn-dark" href="index.html#contact" data-hot>Yes, start my project
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="top">
+      <div class="fcol">
+        <a href="index.html" class="brand" style="margin-bottom:6px" data-hot>
+          <img src="logo.png" alt="ISER — Software &amp; Technology" class="brand-logo footer-logo" width="89" height="62" />
+        </a>
+        <p class="ftag">Building digital brands from Dublin, Ireland — strategy, design and engineering under one roof.</p>
+      </div>
+      <div class="fcol">
+        <h5>Company</h5>
+        <a href="index.html#about">Who We Are</a><a href="index.html#process">Process</a><a href="index.html#work">Portfolio</a><a href="index.html#contact">Contact</a>
+      </div>
+      <div class="fcol">
+        <h5>Services</h5>
+        <a href="index.html#services">Consultation</a><a href="index.html#services">Websites</a><a href="index.html#services">Software</a><a href="index.html#services">Product Video</a>
+      </div>
+      <div class="fcol">
+        <h5>Connect</h5>
+        <a href="https://facebook.com/profile.php?id=100067185625061" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://instagram.com/iser0pp/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://linkedin.com/in/iser-co-bb076230a/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com/isertech" target="_blank" rel="noopener">X / Twitter</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 ISER. ALL RIGHTS RESERVED.</span>
+      <span>BUILDING DIGITAL BRANDS // DUBLIN, IE</span>
+    </div>
+  </div>
+</footer>
+
+<a class="totop" id="totop" href="#main" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 14 6-6 6 6"/></svg>
+</a>
+
+<script>
+/* ===== project data ===== */
+var PROJECTS=[
+  {id:"linkly",name:"Linkly",code:"LK",client:"Sala Company",category:"Software Development",services:"Web App · UI/UX · Backend",url:"https://link-ly.com/",
+   desc:"Linkly is a smart link-management platform that lets brands shorten, customise and track every link from a single dashboard — turning ordinary URLs into branded, measurable touchpoints.",
+   feats:["Branded short links","Click analytics & tracking","Campaign management","Secure, scalable backend"]},
+  {id:"nestfood",name:"Nestfood",code:"NF",client:"Mr. Abolgsem",category:"Software Development",services:"Web & Mobile · Backend",url:"https://nestfood-ly.com/",
+   desc:"Nestfood is a full-stack food-ordering and delivery platform connecting restaurants with customers — browse menus, place orders and track delivery in real time.",
+   feats:["Restaurant & menu management","Real-time order tracking","Secure online payments","Customer & driver experiences"]},
+  {id:"pm-academy",name:"p.m.academy",code:"PM",client:"Pinnacle Medical Academy",category:"Software Development",services:"Web Platform · LMS",url:"https://pinnacilmedicalacademy.com/",
+   desc:"Pinnacle Medical Academy is an e-learning platform for medical professionals — structured courses, enrolment and certification delivered through a clean, modern interface.",
+   feats:["Course catalogue & enrolment","Video lessons & materials","Progress & certification","Student dashboard"]},
+  {id:"irish-statues",name:"Irish Statues",code:"IS",client:"Irish Statues",category:"Software Development",services:"Web · Front-end",url:"https://irishhb.github.io/IrishStatues/index.html",
+   desc:"An interactive showcase cataloguing Ireland's historic statues and monuments, making local heritage easy and engaging to explore online.",
+   feats:["Interactive catalogue","Rich media gallery","Search & filtering","Fully responsive design"]},
+  {id:"gh-hospital",name:"G.H Hospital",code:"GH",client:"Ghout El Shaal Specialized Hospital",category:"Software Development",services:"Web Platform · Backend",url:"https://www.ghoutelshaalspecializedhospital.com/",
+   desc:"A hospital management platform for Ghout El Shaal Specialized Hospital — bringing appointments, departments and patient services together in one secure system.",
+   feats:["Online appointments","Department & doctor directory","Patient services portal","Secure data handling"]},
+  {id:"kildare-icc",name:"Kildare ICC",code:"KICC",client:"Kildare Islamic Cultural Centre",category:"Software Development",services:"Website · CMS",url:"https://kicc.izer.ie/",
+   desc:"A modern website for the Kildare Islamic Cultural Centre — prayer times, events and community news brought together in one welcoming hub.",
+   feats:["Live prayer times","Events & announcements","Donations & support","Community pages"]},
+  {id:"scc",name:"SCC",code:"SCC",client:"SCC AI",category:"Software Development",services:"AI · Web · IoT",url:"https://smartcowscare.ie/",
+   desc:"Smart Cows Care is an AI-driven livestock platform that helps farms monitor herd health, behaviour and productivity — turning data into smarter daily decisions.",
+   feats:["AI health monitoring","Herd analytics dashboard","Smart alerts & insights","IoT device integration"]},
+  {id:"sky-ly",name:"SKY LY",code:"SKY",client:"Confidential",category:"Software Development",services:"Software Development",url:"",
+   desc:"SKY LY is a digital product delivered end-to-end by the ISER team — designed, engineered and launched to specification with a focus on performance and reliability.",
+   feats:["Custom product design","Scalable engineering","Responsive interface","Ongoing support"]},
+  {id:"digital-menu",name:"Digital Menu",code:"DM",client:"Al Seal Group",category:"Software Development",services:"Web App · QR",url:"https://menu.iser.ie/",
+   desc:"A QR-based digital menu for Al Seal Group — guests scan, browse a rich visual menu and order from any table, while staff update items and prices instantly.",
+   feats:["QR scan-to-view","Visual menu builder","Instant live updates","Multi-branch support"]}
+];
+
+(function(){
+  var params=new URLSearchParams(location.search);
+  var id=params.get('id')||PROJECTS[0].id;
+  var i=PROJECTS.findIndex(function(p){return p.id===id;});
+  if(i<0){i=0;}
+  var p=PROJECTS[i];
+  var check='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4 10-10"/></svg>';
+
+  document.title=p.name+' — ISER Portfolio';
+  document.getElementById('bcTitle').textContent=p.name;
+  document.getElementById('pTitle').textContent=p.name;
+  document.getElementById('pCat').textContent=p.category;
+  document.getElementById('pCat2').textContent=p.category;
+  document.getElementById('pClient').textContent=p.client;
+  document.getElementById('pServices').textContent=p.services;
+  document.getElementById('pDesc').textContent=p.desc;
+  document.getElementById('pMono').textContent=p.code;
+  document.getElementById('pChip').textContent='// '+p.id.toUpperCase().replace('-','_');
+  document.getElementById('pFeats').innerHTML=p.feats.map(function(f){return '<li>'+check+'<span>'+f+'</span></li>';}).join('');
+
+  // real project image from the old site (falls back to the mono code if it fails to load)
+  var IMG={linkly:"linkly.jpg",nestfood:"nestfood.png","pm-academy":"pm-academy.png","irish-statues":"irish-statues.png","gh-hospital":"gh-hospital.png","kildare-icc":"kildare-icc.jpg",scc:"scc.jpg","sky-ly":"sky-ly.jpg","digital-menu":"digital-menu.jpg"};
+  if(IMG[p.id]){
+    var vis=document.querySelector('.pd-visual'), mono=document.getElementById('pMono');
+    var im=document.createElement('img'); im.className='pd-img'; im.src='assets/projects/'+IMG[p.id];
+    im.alt=p.name+' — project visual';
+    im.onload=function(){ if(mono) mono.style.display='none'; };
+    im.onerror=function(){ im.remove(); };
+    vis.appendChild(im);
+  }
+
+  var vw=document.getElementById('pVisitWrap');
+  if(p.url){
+    vw.innerHTML='<a class="btn btn-primary" href="'+p.url+'" target="_blank" rel="noopener" data-hot>Visit Website '+
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M17 7H8M17 7v9"/></svg></a>';
+  } else {
+    vw.innerHTML='<div class="priv">PRIVATE PROJECT — LINK ON REQUEST</div>';
+  }
+
+  // prev / next (wrap around)
+  var prev=PROJECTS[(i-1+PROJECTS.length)%PROJECTS.length];
+  var next=PROJECTS[(i+1)%PROJECTS.length];
+  var pn=document.getElementById('navPrev'), nx=document.getElementById('navNext');
+  pn.href='project.html?id='+prev.id; document.getElementById('prevName').textContent=prev.name;
+  nx.href='project.html?id='+next.id; document.getElementById('nextName').textContent=next.name;
+})();
+
+/* ===== shared interactions ===== */
+(function(){
+  if(window.matchMedia('(max-width:900px)').matches) return;
+  var ret=document.getElementById('reticle'),dot=document.getElementById('dot');
+  var mx=0,my=0,dx=0,dy=0;
+  addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY;ret.style.transform='translate('+mx+'px,'+my+'px)';});
+  (function loop(){dx+=(mx-dx)*.18;dy+=(my-dy)*.18;dot.style.transform='translate('+dx+'px,'+dy+'px)';requestAnimationFrame(loop);})();
+  function bind(){document.querySelectorAll('a,button,input,textarea,[data-hot]').forEach(function(el){
+    el.addEventListener('mouseenter',function(){ret.classList.add('hot');});
+    el.addEventListener('mouseleave',function(){ret.classList.remove('hot');});});}
+  bind();
+  addEventListener('mousedown',function(){ret.classList.add('dot');});
+  addEventListener('mouseup',function(){ret.classList.remove('dot');});
+})();
+
+var header=document.getElementById('header'),progress=document.getElementById('progress'),totop=document.getElementById('totop');
+addEventListener('scroll',function(){
+  var y=scrollY;header.classList.toggle('scrolled',true);totop.classList.toggle('show',y>500);
+  var h=document.documentElement.scrollHeight-innerHeight;progress.style.width=(h>0?y/h*100:0)+'%';
+},{passive:true});
+
+var burger=document.getElementById('burger'),mm=document.getElementById('mobileMenu');
+burger.addEventListener('click',function(){mm.classList.toggle('open');});
+mm.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mm.classList.remove('open');});});
+
+/* theme toggle */
+(function(){
+  var root=document.documentElement,btn=document.getElementById('themeToggle');if(!btn)return;
+  var moon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10Z"/></svg>';
+  var sun='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6 19 19M19 5l-1.4 1.4M6.4 17.6 5 19"/></svg>';
+  function paint(){var light=root.getAttribute('data-theme')==='light';btn.innerHTML=light?sun:moon;
+    btn.setAttribute('aria-label',light?'Switch to dark mode':'Switch to light mode');}
+  paint();
+  btn.addEventListener('click',function(){var light=root.getAttribute('data-theme')==='light';
+    if(light){root.removeAttribute('data-theme');}else{root.setAttribute('data-theme','light');}
+    try{localStorage.setItem('iser-theme',light?'dark':'light');}catch(e){}paint();});
+})();
+
+/* magnetic primary buttons */
+(function(){
+  if(window.matchMedia('(max-width:900px)').matches)return;
+  document.querySelectorAll('.btn-primary').forEach(function(b){
+    b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();
+      var x=e.clientX-r.left-r.width/2,y=e.clientY-r.top-r.height/2;
+      b.style.transform='translate('+(x*0.16)+'px,'+(y*0.16-3)+'px)';});
+    b.addEventListener('mouseleave',function(){b.style.transform='';});});
+})();
+</script>
+</body>
+</html>
