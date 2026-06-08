@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sabboraMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1" />
+      <stop offset="1" stop-color="#4338CA" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#sabboraMark)" />
+  <!-- قاعدة القبعة (الرأس) -->
+  <path d="M21 32 L21 41 Q21 45.5 32 45.5 Q43 45.5 43 41 L43 32 L32 37 Z" fill="#C7D2FE" />
+  <!-- سطح قبعة التخرج -->
+  <path d="M32 16 L53 26 L32 36 L11 26 Z" fill="#FFFFFF" />
+  <!-- الشرّابة (chalk tassel) -->
+  <path d="M53 26 V40.5" stroke="#F59E0B" stroke-width="2.6" stroke-linecap="round" />
+  <circle cx="53" cy="43.5" r="3.2" fill="#F59E0B" />
+</svg>

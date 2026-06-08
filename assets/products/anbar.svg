@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="عنبر">
+  <rect width="64" height="64" rx="16" fill="#384420"/>
+  <!-- شمس / صفار البيض -->
+  <circle cx="45" cy="18" r="7" fill="#E3A52A"/>
+  <!-- سقف العنبر (الشيد) -->
+  <path d="M11 31 L32 16.5 L53 31 Z" fill="#94A451"/>
+  <!-- جسم العنبر -->
+  <path d="M16 31 H48 V47 a2 2 0 0 1 -2 2 H18 a2 2 0 0 1 -2 -2 Z" fill="#F6F0E4"/>
+  <!-- باب العنبر -->
+  <rect x="28" y="37" width="8" height="12" rx="1.5" fill="#76883A"/>
+  <!-- فتحات تهوية -->
+  <circle cx="22" cy="37" r="1.9" fill="#C9881A"/>
+  <circle cx="42" cy="37" r="1.9" fill="#C9881A"/>
+  <!-- خط الأرض -->
+  <rect x="11" y="50" width="42" height="3" rx="1.5" fill="#C9881A"/>
+</svg>

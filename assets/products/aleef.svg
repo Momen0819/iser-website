@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="أليف">
+  <rect x="2" y="2" width="60" height="60" rx="20" fill="#166140"/>
+  <rect x="2" y="2" width="60" height="60" rx="20" fill="url(#g)" fill-opacity="0.35"/>
+  <!-- main paw pad -->
+  <path d="M32 51c-7.6 0-12.4-3.8-12.4-9.2 0-5.2 4.8-9.6 12.4-9.6s12.4 4.4 12.4 9.6C44.4 47.2 39.6 51 32 51z" fill="#FDF5E8"/>
+  <!-- outer toe beans (marigold) -->
+  <ellipse cx="20" cy="28" rx="4.1" ry="5.4" fill="#F2AC4D"/>
+  <ellipse cx="44" cy="28" rx="4.1" ry="5.4" fill="#F2AC4D"/>
+  <!-- inner toe beans (cream) -->
+  <ellipse cx="27" cy="20.5" rx="3.8" ry="5.1" fill="#FDF5E8"/>
+  <ellipse cx="37" cy="20.5" rx="3.8" ry="5.1" fill="#FDF5E8"/>
+  <defs>
+    <linearGradient id="g" x1="2" y1="2" x2="62" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F7A4D"/>
+      <stop offset="1" stop-color="#0C3022"/>
+    </linearGradient>
+  </defs>
+</svg>

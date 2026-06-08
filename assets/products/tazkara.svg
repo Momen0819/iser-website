@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#2447F0"/>
+  <!-- بطاقة التذكرة مع فتحتي التذكرة (perforation) -->
+  <path d="M18 16h28a4 4 0 0 1 4 4v6a5 5 0 0 0 0 10v6a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4v-6a5 5 0 0 0 0-10v-6a4 4 0 0 1 4-4z" fill="#FFFFFF"/>
+  <!-- شرارة/برق ليمي = مشغّل وجاهز -->
+  <path d="M34 21l-9 13h6l-2 9 9-13h-6l2-9z" fill="#2447F0"/>
+  <circle cx="34" cy="31.5" r="13" fill="none" stroke="#A8E32E" stroke-width="2.5" stroke-dasharray="3 4"/>
+</svg>

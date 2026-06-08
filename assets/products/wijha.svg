@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="وجهة">
+  <defs>
+    <linearGradient id="wjPetrol" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#137176" />
+      <stop offset="1" stop-color="#0C2F35" />
+    </linearGradient>
+  </defs>
+  <!-- بلاطة بترولية بزوايا هندسية -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#wjPetrol)" />
+  <!-- إبرة بوصلة / علامة وجهة هندسية: مثلث كهرماني للأعلى + مثلث فاتح للأسفل -->
+  <path d="M64 26 L92 92 L64 76 Z" fill="#F2B705" />
+  <path d="M64 26 L36 92 L64 76 Z" fill="#FBF7EF" />
+  <!-- نقطة الوجهة -->
+  <circle cx="64" cy="70" r="7" fill="#0C2F35" />
+</svg>

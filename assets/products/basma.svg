@@ -1,0 +1,19 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="بسمة">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#127FBF"/>
+      <stop offset="1" stop-color="#0B4566"/>
+    </linearGradient>
+    <linearGradient id="tooth" x1="30" y1="20" x2="66" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CFEAFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="26" fill="url(#bg)"/>
+  <!-- سن -->
+  <path d="M48 22c-9 0-13 4-18.5 4C24 26 22 31 22 39c0 9 3 14 5.5 22 1.4 4.4 2 9 5 9 3.2 0 3.4-7 5.6-12.4 1.2-3 2.4-4.6 4.9-4.6s3.7 1.6 4.9 4.6C50.1 63 50.3 70 53.5 70c3 0 3.6-4.6 5-9C61 53 64 48 64 39c0-8-2-13-7.5-13C51 26 57 22 48 22z" fill="url(#tooth)"/>
+  <!-- ابتسامة مرجانية -->
+  <path d="M38 44c2.6 2.4 6 3.6 10 3.6s7.4-1.2 10-3.6" stroke="#FF7A59" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+  <!-- بريق -->
+  <circle cx="62.5" cy="31.5" r="3.2" fill="#FF7A59"/>
+</svg>

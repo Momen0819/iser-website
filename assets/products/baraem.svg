@@ -1,0 +1,20 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="96" height="96" rx="26" fill="#FFF1F6"/>
+  <!-- الساق -->
+  <path d="M48 74V44" stroke="#0F73A8" stroke-width="6" stroke-linecap="round"/>
+  <!-- ورقة يمنى -->
+  <path d="M48 52C48 40 58 31 70 31C70 43 60 52 48 52Z" fill="#1690CC"/>
+  <!-- ورقة يسرى -->
+  <path d="M48 56C48 44 38 35 26 35C26 47 36 56 48 56Z" fill="#5FBDEF"/>
+  <!-- البرعم -->
+  <circle cx="48" cy="34" r="15" fill="#DE3D75"/>
+  <circle cx="48" cy="34" r="15" fill="url(#g)" fill-opacity="0.35"/>
+  <!-- شمس صغيرة فوق البرعم -->
+  <circle cx="48" cy="20" r="5" fill="#FFC02E"/>
+  <defs>
+    <radialGradient id="g" cx="0.35" cy="0.3" r="0.8">
+      <stop stop-color="#FBB6D0"/>
+      <stop offset="1" stop-color="#DE3D75" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

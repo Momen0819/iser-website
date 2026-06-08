@@ -1,0 +1,31 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="qg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6E7BE"/>
+      <stop offset="0.5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#B8902A"/>
+    </linearGradient>
+    <linearGradient id="qg2" x1="32" y1="14" x2="32" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF3DD"/>
+      <stop offset="1" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#16130D"/>
+  <rect x="0.6" y="0.6" width="62.8" height="62.8" rx="15.4" fill="none" stroke="#D4AF37" stroke-opacity="0.4" stroke-width="1.2"/>
+  <!-- جوهرة مفصّصة (Brilliant gem) -->
+  <g stroke="#0D0B08" stroke-width="1.1" stroke-linejoin="round">
+    <!-- التاج العلوي -->
+    <path d="M16 24 L48 24 L40 17 L24 17 Z" fill="url(#qg)"/>
+    <path d="M16 24 L24 17 L26 24 Z" fill="#E8C874"/>
+    <path d="M48 24 L40 17 L38 24 Z" fill="#E8C874"/>
+    <path d="M26 24 L32 17 L38 24 L32 24 Z" fill="#FBF3DD"/>
+    <path d="M24 17 L32 17 L26 24 Z" fill="#D4AF37"/>
+    <path d="M40 17 L32 17 L38 24 Z" fill="#D4AF37"/>
+    <!-- الجناح (Pavilion) المثلّث السفلي -->
+    <path d="M16 24 L48 24 L32 50 Z" fill="url(#qg2)"/>
+    <path d="M26 24 L32 50 L20 24 Z" fill="#D4AF37" fill-opacity="0.85"/>
+    <path d="M38 24 L32 50 L44 24 Z" fill="#D4AF37" fill-opacity="0.85"/>
+    <path d="M32 24 L26 24 L32 50 Z" fill="#E8C874"/>
+    <path d="M32 24 L38 24 L32 50 Z" fill="#F6E7BE"/>
+  </g>
+</svg>

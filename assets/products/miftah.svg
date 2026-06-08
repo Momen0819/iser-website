@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#131C30"/>
+  <!-- مفتاح: حلقة + ساق + أسنان -->
+  <circle cx="24" cy="24" r="9" stroke="#E07A5F" stroke-width="4"/>
+  <circle cx="24" cy="24" r="2.5" fill="#E07A5F"/>
+  <path d="M30.3 30.3L46 46" stroke="#FAF6F0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 40L44 36" stroke="#FAF6F0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M44 44L48 40" stroke="#FAF6F0" stroke-width="4" stroke-linecap="round"/>
+</svg>

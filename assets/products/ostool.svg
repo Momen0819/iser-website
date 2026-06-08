@@ -1,0 +1,19 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="أسطول">
+  <defs>
+    <linearGradient id="osBg" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161A21"/>
+      <stop offset="1" stop-color="#0A0D12"/>
+    </linearGradient>
+    <linearGradient id="osFlame" x1="20" y1="74" x2="74" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0540A"/>
+      <stop offset="1" stop-color="#FF8038"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="26" fill="url(#osBg)"/>
+  <!-- خطوط السرعة -->
+  <rect x="16" y="30" width="30" height="5" rx="2.5" fill="#2E8BFF" opacity="0.85"/>
+  <rect x="16" y="45.5" width="20" height="5" rx="2.5" fill="#2E8BFF" opacity="0.55"/>
+  <rect x="16" y="61" width="13" height="5" rx="2.5" fill="#2E8BFF" opacity="0.35"/>
+  <!-- شارة الحركة (سهم/لهب متجه للأمام) -->
+  <path d="M70 18 L52 48 L64 48 L48 78 L80 42 L66 42 Z" fill="url(#osFlame)"/>
+</svg>

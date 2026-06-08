@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="بلسم">
+  <defs>
+    <linearGradient id="balsamJade" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A6248" />
+      <stop offset="0.55" stop-color="#0F9A6E" />
+      <stop offset="1" stop-color="#20AC7F" />
+    </linearGradient>
+  </defs>
+  <!-- البلاطة -->
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#balsamJade)" />
+  <!-- صليب صيدلي أبيض -->
+  <rect x="27.5" y="14" width="9" height="36" rx="3.2" fill="#FFFFFF" />
+  <rect x="14" y="27.5" width="36" height="9" rx="3.2" fill="#FFFFFF" transform="rotate(-0 14 27.5)" />
+  <!-- ورقة/بلسم على الذراع العلوي (لمسة طبيعية) -->
+  <path d="M32 9.5c4.2 1.1 6.6 4.2 6.6 8 0 .9-.15 1.7-.4 2.5-2.1-.5-4-.4-5.6.5-.2-3.9-.4-7.6-.6-11z" fill="#FFC02E" opacity="0.95" />
+  <!-- قطرة برتقالية إشارة (تنبيه الصلاحية) -->
+  <circle cx="46.5" cy="46.5" r="6" fill="#EE4F28" stroke="#FFFFFF" stroke-width="2.5" />
+</svg>

@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="دوام">
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="#F0563F" stroke="#16243B" stroke-width="3"/>
+  <circle cx="32" cy="32" r="17" fill="#FBF5EE" stroke="#16243B" stroke-width="3"/>
+  <path d="M24 33.5L29.5 39L41 26" stroke="#0EA5A4" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="32" r="2.4" fill="#16243B"/>
+</svg>
